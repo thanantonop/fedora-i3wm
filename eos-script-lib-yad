@@ -27,7 +27,7 @@
 # shellcheck disable=SC1090      # Don't show warnings on sourceing via a variable
 
 #source /etc/eos-script-lib-yad.conf      # for EOS_ROOTER and other configs
-source eos-script-lib-yad.conf      # for EOS_ROOTER and other configs
+source ~/.config/i3/scripts/eos-script-lib-yad.conf      # for EOS_ROOTER and other configs
 
 export EOS_WICON=/usr/share/endeavouros/EndeavourOS-icon.png
 export EOS_YAD_STARTER_CMD="/usr/bin/yad --window-icon=$EOS_WICON"

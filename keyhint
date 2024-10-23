@@ -2,7 +2,7 @@
 
 Main() {
 #    source /usr/share/endeavouros/scripts/eos-script-lib-yad || return 1
-    source eos-script-lib-yad || return 1
+    source ~/.config/i3/scripts/eos-script-lib-yad || return 1
 
     local command=(
         eos_yad --title="EndeavourOS i3-wm keybindings:" --no-buttons --geometry=400x345-15-400 --list
