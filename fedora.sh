@@ -22,7 +22,7 @@ cd ~
 cd ~/Downloads
 mkdir ~/.icons
 tar -xf 01-Qogir.tar.xz
-cp -R ~/Downloads/Qogir/* ~/.icons
+cp -R ~/Downloads/Qogir* ~/.icons
 cd ~
 
 cd ~/Downloads
