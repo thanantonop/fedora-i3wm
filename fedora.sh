@@ -45,4 +45,12 @@ cd ~/Downloads
 cp picom.conf ~/.config/
 cd ~
 
+cd ~/Downloads
+mkdir -p ~/Pictures/backgrounds
+cp fantasy-art-drawing.jpg ~/Pictures/backgrounds
+cd ~
+
+# Add to .config/i3/config
+# uncomment also picom
+exec --no-startup-id sleep 1 && feh --bg-fill ~/Pictures/backgrounds/fantasy-art-drawing.jpg
 
