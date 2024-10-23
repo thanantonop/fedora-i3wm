@@ -6,7 +6,7 @@ sudo dnf install \
   https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm -y
 sudo dnf group install Multimedia -y
 sudo dnf install i3 i3blocks i3lock i3status dunst dmenu -y
-sudo dnf install python3 python3-pip neofetch ranger mc nmap vim neovim lsd tlp xbacklight xbindkeys dex-autostart sysstat jq scrot playerctl numlockx polkit-gnome thunar thunar-archive-plugin thunar-volman tumbler xed xfce4-terminal arc-theme papirus-icon-theme arandr rofi nitrogen xarchiver xbindkeys xdpyinfo zip acpi gvfs feh mpv vlc cmus audacious geany meld libreoffice abiword emacs gimp stellarium transmission-gtk evince keepassxc inkscape darktable krita filezilla qimgv blueman lxappearance flatpak galculator fontawesome-fonts-all chromium xournal tree redshift conky cups picom lm_sensors powerline-fonts terminus-fonts liberation-fonts google-roboto-fonts google-roboto-mono-fonts lightdm-gtk-greeter-settings -y
+sudo dnf install python3 python3-pip neofetch ranger mc nmap vim neovim lsd tlp power-profiles-daemon xbacklight xbindkeys dex-autostart sysstat jq scrot playerctl yad numlockx polkit-gnome thunar thunar-archive-plugin thunar-volman tumbler xed xfce4-terminal arc-theme papirus-icon-theme arandr rofi nitrogen xarchiver xbindkeys xdpyinfo zip acpi gvfs feh mpv vlc cmus audacious geany meld libreoffice abiword emacs gimp stellarium transmission-gtk evince keepassxc inkscape darktable krita filezilla qimgv blueman lxappearance flatpak galculator fontawesome-fonts-all chromium xournal tree redshift conky cups picom lm_sensors powerline-fonts terminus-fonts liberation-fonts google-roboto-fonts google-roboto-mono-fonts lightdm-gtk-greeter-settings -y
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 flatpak install flathub com.visualstudio.code -y
 cd ~
@@ -43,6 +43,8 @@ cd .local/share
 cp -R * ~/.local/share/
 cd ~/Downloads
 cp picom.conf ~/.config/
+cp config ~/.config/i3/
+cp keyhint eos-script-lib-yad eos-script-lib-yad.conf ~/.config/i3/scripts/
 cd ~
 
 cd ~/Downloads
