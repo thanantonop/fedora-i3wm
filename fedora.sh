@@ -49,7 +49,7 @@ cd ~
 
 cd ~/Downloads
 mkdir -p ~/Pictures/backgrounds
-cp fantasy-art-drawing.jpg ~/Pictures/backgrounds
+cp fedora_bg.jpg ~/Pictures/backgrounds
 cd ~
 
 # Add to .config/i3/config
